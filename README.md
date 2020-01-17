@@ -1,7 +1,10 @@
 # ConnorxHenning
 ![Image of Me](https://github.com/OPdgoat/ConnorxHenning/blob/Extension/Image/4160.png)
 
-- [Introduction](https://github.com/OPdgoat/ConnorxHenning/tree/Extension#Introduction)
+![Version](https://img.shields.io/badge/Version-0.1-brightgreen)
+![License](https://img.shields.io/badge/License-GPLv3-blue)
+
+- [Introduction](https://github.com/OPdgoat/ConnorxHenning#Introduction)
 - [Reminders](https://github.com/OPdgoat/ConnorxHenning#Reminders)
 
 ## Introduction
