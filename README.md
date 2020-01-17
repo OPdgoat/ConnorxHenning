@@ -1,7 +1,7 @@
 # ConnorxHenning
 ![Image of Me](https://github.com/OPdgoat/ConnorxHenning/blob/Extension/Image/4160.png)
 
-- [Introduction](https://github.com/OPdgoat/ConnorxHenning#introduction)
+- [Introduction](https://github.com/OPdgoat/ConnorxHenning/tree/Extension#Introduction)
 - [Reminders](https://github.com/OPdgoat/ConnorxHenning#Reminders)
 
 ## Introduction
