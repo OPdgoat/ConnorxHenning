@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/CSS" href="Style/CSS1.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <title>ConnorxHenning</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="Scripts/fullpage.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style/fullpage.css" />
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section active" id="section1">
+        <h1>Welcome!</h1>
+        <ul>
+          <li>Activities for Boredom</li>
+          <li>Useful Links</li>
+        </ul>
+      </div>
+      <div class="section" id="section2">
+        <div class="slide active slide1">
+          <h2>Activities for Boredom</h2>
+          <p>
+            This has suggestions of what to do when lacking power, internet, or just plain bored.
+          </p>
+        </div>
+        <div class="slide slide2">
+          <h3>Without Power?</h3>
+        </div>
+        <div class="slide">
+          <h3>Without Internet?</h3>
+        </div>
+        <div class="slide slide2">
+          <h3>Without Motivation</h3>
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="slide active">
+          <h2>Helpful Websites</h2>
+          <p>A multitude of links for when I need help or a unique tool to get something done.</p>
+        </div>
+        <div class="slide">
+          <h3>For Personal</h3>
+        </div>
+        <div class="slide">
+          <h3>For Work</h3>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myFullpage = new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+        sectionsColor: ["whitesmoke", "lightblue", "#4BBFC3"],
+        anchors: ["firstPage", "secondPage", "3rdPage"],
+        navigation: true,
+        navigationTooltips: ["Page 1", "Page 2", "Any text!"],
+        showActiveTooltip: true,
+        menu: "#menu"
+      });
+
+      //methods
+      fullpage_api.setAllowScrolling(false);
+    </script>
+  </body>
+</html>
